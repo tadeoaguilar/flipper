@@ -15,7 +15,7 @@ const {Keypair,SystemProgram} = web3;
 const switchAccount =Keypair.generate();
 const programId = new PublicKey(idl.metadata.address)
 const opts={
-  preflightCommitment: "Processed"
+  preflightCommitment: "processed"
 }
 function App() {
   const [value,setValue] = useState(null);
@@ -28,11 +28,18 @@ function App() {
     );
     return provider;
   }
+  const {log:l} = console
 
   const createFlipper = async  () => {
+    l('create flipper')
     const provider = await getProvider()
+    l(`provider 2: ${provider.wallet.publicKey.toBase58()}`)
+   
+    l(switchAccount)
+    
     /* create the program interface combining the idl, program ID, and provider */
     const program = new Program(idl, programId, provider);
+
     try {
       /* interact with the program via rpc */
       await program.methods.initialize()
@@ -43,11 +50,11 @@ function App() {
           systemProgram: SystemProgram.programId,
         })
       .signers([switchAccount])
-      .rpc();
+     .rpc();
 
+ l('aui')
 
-
-      const account = await program.account.switchAccount.fetch(switchAccount.publicKey);
+     const account = await program.account.switchAccount.fetch(switchAccount.publicKey);
       //console.log('dataAccount pub key: ', switchAccount.publicKey.toBase58())
       //console.log('user pub key: ', provider.wallet.publicKey.toBase58())
       //console.log('program id: ', SystemProgram.programId.toBase58())
@@ -73,6 +80,7 @@ function App() {
   }
   
   if (!wallet.connected) {console.log('enbtre')
+    console.log(wallet)
     /* If the user's wallet is not connected, display connect wallet button. */
     return (
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '100px' }}>
