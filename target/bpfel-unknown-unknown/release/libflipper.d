@@ -1,1 +1,1 @@
-/mnt/c/gitlab/solana/solana-knox/code/flipper/target/bpfel-unknown-unknown/release/libflipper.rlib: /mnt/c/gitlab/solana/solana-knox/code/flipper/programs/flipper/src/lib.rs
+/Users/atreides/Documents/gitlab/solana/flipper/target/bpfel-unknown-unknown/release/libflipper.rlib: /Users/atreides/Documents/gitlab/solana/flipper/programs/flipper/src/lib.rs
