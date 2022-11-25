@@ -1,0 +1,11 @@
+/mnt/c/gitlab/solana/solana-knox/code/flipper/target/bpfel-unknown-unknown/release/deps/serde_bytes-14832d9e8a1dd54e.rmeta: /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/lib.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytes.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/de.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/ser.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytebuf.rs
+
+/mnt/c/gitlab/solana/solana-knox/code/flipper/target/bpfel-unknown-unknown/release/deps/libserde_bytes-14832d9e8a1dd54e.rlib: /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/lib.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytes.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/de.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/ser.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytebuf.rs
+
+/mnt/c/gitlab/solana/solana-knox/code/flipper/target/bpfel-unknown-unknown/release/deps/serde_bytes-14832d9e8a1dd54e.d: /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/lib.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytes.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/de.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/ser.rs /home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytebuf.rs
+
+/home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/lib.rs:
+/home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytes.rs:
+/home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/de.rs:
+/home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/ser.rs:
+/home/atreides/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.7/src/bytebuf.rs:
