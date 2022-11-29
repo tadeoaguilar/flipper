@@ -2,7 +2,7 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-flipper = "HHbE9a2o19U1pTrRDwVp6ECh3WfZzCfGYb8BRf4zMT3B"
+flipper = "H4NKh3j5pZZsnFjRa7NskaZrxkWvXv4PvfbYJDPYaLUP"
 
 [registry]
 url = "https://api.apr.dev"

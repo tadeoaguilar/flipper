@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 //after running anchor build
 // run solana address -k target/deploy/flipper-keypair.json
 //HHbE9a2o19U1pTrRDwVp6ECh3WfZzCfGYb8BRf4zMT3B
-declare_id!("HHbE9a2o19U1pTrRDwVp6ECh3WfZzCfGYb8BRf4zMT3B");
+declare_id!("H4NKh3j5pZZsnFjRa7NskaZrxkWvXv4PvfbYJDPYaLUP");
 
 #[program]
 pub mod flipper {

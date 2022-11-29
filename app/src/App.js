@@ -55,10 +55,10 @@ function App() {
  l('aui')
 
      const account = await program.account.switchAccount.fetch(switchAccount.publicKey);
-      //console.log('dataAccount pub key: ', switchAccount.publicKey.toBase58())
-      //console.log('user pub key: ', provider.wallet.publicKey.toBase58())
-      //console.log('program id: ', SystemProgram.programId.toBase58())
-      //console.log('account: ', account);
+      console.log('dataAccount pub key: ', switchAccount.publicKey.toBase58())
+      console.log('user pub key: ', provider.wallet.publicKey.toBase58())
+      console.log('program id: ', SystemProgram.programId.toBase58())
+      console.log('account: ', account);
       setValue(account.state.toString());
     } catch (err) {
       console.log("Transaction error: ", err);
